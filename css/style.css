@@ -1,0 +1,14 @@
+body{
+    background-color: #f1f4f7;
+}
+
+.color{
+    background-color: #FFFFC5;
+    
+}
+
+.pos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
