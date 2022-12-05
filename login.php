@@ -10,14 +10,12 @@ if(isset($_POST['btnLogin'])){
     $ejc = $conecta->query($consul);
 
     if($ejqu>0){
-        header("location:index1.php");
+        header("location:index.php");
     }
     else{
         header("location:login.php");
     }
 }
-
-
 ?>
 
 <!DOCTYPE html>
